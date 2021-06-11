@@ -1,4 +1,4 @@
-$i, $j, $K, $l = 0, 0, 0, 0
+$i, $j, $k, $l = 0, 0, 0, 0
 $num = 8
 
 class Loops 
@@ -16,12 +16,12 @@ class Loops
    end while $j < $num
   end
   
-  # def untilLoop
-  #   until $i > $num  do
-  #     puts("until loop k = #$i" )
-  #     $i +=1;
-  #   end
-  # end
+  def untilLoop
+    until $k > $num  do
+      puts("until loop k = #$k" )
+      $k +=1;
+    end
+  end
 
   def forLoop
     for i in 0..5
@@ -49,6 +49,6 @@ LoopsObj = Loops.new
 
 LoopsObj.whileLoop
 LoopsObj.beginLoop
-# LoopsObj.untilLoop
+LoopsObj.untilLoop
 LoopsObj.forLoop
 
